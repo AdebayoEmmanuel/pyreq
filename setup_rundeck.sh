@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Step 1: Pull the Rundeck Docker image
-docker pull rundeck/rundeck
+docker pull rundeck/rundeck:5.8.0
 
 # Step 2: Run Rundeck as a Docker container
 sudo docker run -d -p 4440:4440 --name rundeck rundeck/rundeck
